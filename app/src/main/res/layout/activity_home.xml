@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skyline"
+    tools:context="vishaak_m.xox.HomeActivity">
+
+    <LinearLayout
+        android:gravity="center|top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:elevation="2dp"
+            android:shadowColor="#000"
+            android:shadowDx="-2"
+            android:shadowDy="2"
+            android:shadowRadius="0.01"
+            android:layout_margin="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X O X"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/sp"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:text="Single Player"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/tp"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:text="Two Player"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/htp"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:text="How to Play"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/about"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:text="About"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>

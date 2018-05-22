@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">X O X</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="how_to_play"><b>1.</b> The game is played on a grid that\'s 3 squares by 3 squares.\n\n<b>2.</b> You are X, your friend (or the computer in this case) is O. Players take turns putting their marks in empty squares.\n\n<b>3.</b> The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.\n\n<b>4.</b> When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</string>
+</resources>

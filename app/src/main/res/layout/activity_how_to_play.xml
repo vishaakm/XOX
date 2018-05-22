@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skyline"
+    tools:context="vishaak_m.xox.HowToPlayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <TextView
+        android:elevation="2dp"
+        android:shadowColor="#000"
+        android:shadowDx="-2"
+        android:shadowDy="2"
+        android:shadowRadius="0.01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X O X"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"/>
+
+        <TextView
+            android:elevation="2dp"
+            android:shadowColor="#000"
+            android:shadowDx="-2"
+            android:shadowDy="2"
+            android:shadowRadius="0.01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Rules"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/how_to_play"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                android:textAlignment="center"/>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>
